@@ -1,4 +1,4 @@
-var 당첨자 수 = 2;
+var 당첨자수 = 2;
 var 댓글선택자 = '._3b-9>div>.UFIComment.UFICommentActorName';
 function shuffle(a) {
     for (let i = a.length; i; i--){
@@ -14,4 +14,4 @@ list = list.filter((v,i,a) => a. indexOf(v)===i);
 shuffle(list)
 console.log(list.slice(0,당첨자수));
 
-# 당첨자 수는 본인 자유 
+# 당첨자수는 본인 자유 
