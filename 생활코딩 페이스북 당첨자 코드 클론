@@ -13,3 +13,5 @@ document.querySelectorAll(댓글선택자).forEach(function(e){
 list = list.filter((v,i,a) => a. indexOf(v)===i);
 shuffle(list)
 console.log(list.slice(0,당첨자수));
+
+# 당첨자 수는 본인 자유 
