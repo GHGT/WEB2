@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .js{
+        font-weight: bold;
+        color:red; 
+    }
+    #first{
+        color: aquamarine;
+    }
+    span{color: blueviolet;}
+</style>
+    <title>WEB1 - HTML</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1><a href="index.html">WEB</a></h1>
+<input type="button" value="night" onclick="
+    var target = document.querySelector('body');
+if (this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    target.style.color = 'white';
+    this.value = 'day'
+}else {
+    target.style.backgroundColor = 'white';
+    target.style.color = 'black';
+    this.value = 'night'
+}
+">
+<ol>
+    <li><a href="1.html">HTML</li></a>
+    <li><a href="2.html">CSS</li></a>
+    <li><a href="3.html">JavaScript</li></a>
+</ol>
+
+
+<h2 style="background-color: coral;color:powderblue" >JavaScript</h2>
+    <a title="HTML5"href="https://www.w3.org/TR/2011/WD-html5-20110405/"target="_blank">Hypertext</a> Markup Language (HTML) is the standard markup language <span class="js">for</span> <strong>creating <u>web</u> pages</strong> and web applications
+
+<h1>W3C</h1>
+and <span id="first" class="js">web</span> applications.Web browsers receive <span>HTML</span> documents <span>from</span> a web server or from local storage and render them into multimedia web pages.<br> HTML describes the structure of a web page semantically and originally included cues <span class="js">for</span> the appearance of the document.
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p style="margin-top:55px;">HTML elements are the building blocks of HTML pages.<br> With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page.<br>It provides a means to create structured documents by denoting structural semantics <span class="js">for</span> text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+<input type="button" value="night" onclick="
+if (this.value === 'night'){
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';
+    this.value = 'day'
+}else {
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+    this.value = 'night'
+}
+">
+</body>
+</html>
